@@ -429,6 +429,14 @@ body {
     text-decoration: none;
     color: var(--main-color);
 }
+@media (max-width: 767px) {
+    .contact .contact-content .text h1 {
+        font-size: 27px;
+    }
+    .contact .contact-content .text a {
+        font-size: 23px;
+    }
+}
 .contact .contact-content .links {
     margin: 20px 0 0 0;
     display: flex;
